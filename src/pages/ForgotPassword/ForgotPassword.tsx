@@ -32,10 +32,11 @@ export const ForgotPasswordPage: React.FC<ForgotPasswordProps> = ({
             <p className="theme-text-style">{WelcomeText}</p>
             <div className="input-wrapper my-3">
               <TextBoxField
+                name="email-id"
                 type="text"
                 id="textField"
                 className="input-field"
-                placeholder=" "
+                placeholder=""
                 label="User name or E-mail*"
               />
             </div>

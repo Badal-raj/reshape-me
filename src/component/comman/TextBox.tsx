@@ -8,7 +8,7 @@ interface TextBoxProps {
   className?: string;
   placeholder: string;
   label?: string;
-  value: string | number;
+  value?: string | number;
   error?: string | number
 }
 

@@ -23,6 +23,9 @@ export const Header: React.FC = () => {
   };
 
   const handleLogOut = () => {
+    setFields({
+      userId: ""
+    })
     dispatch(setloginData({ fields: fields.userId, isAuth: false}));
     sessionStorage.setItem("token", "");
     navigate("/");
