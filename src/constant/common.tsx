@@ -1,0 +1,1 @@
+export const WelcomeText = "Allow you to pay online at all application and website that accept all master cards."

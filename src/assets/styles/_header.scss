@@ -1,0 +1,27 @@
+.header-container{
+    width: $max_width;
+    height: 10%;
+    background: $theme-color;
+    position: fixed;
+}
+
+.avatar-icon{
+    margin: 0 0 0 auto;
+    padding: 0px;
+    cursor: pointer;
+    position: relative;
+}
+
+.avatar-popover{
+    display: grid;
+    right: 8px;
+    padding: 9px;
+    position: absolute;
+    width: 120px;
+    height: 85px;
+    border-radius: 6px;
+    border: 1px solid #dee2e6;
+    z-index: 1;
+    background:#ffffff;
+    box-shadow: 0px 1px #dee2e6;
+}
